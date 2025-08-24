@@ -1,4 +1,4 @@
-# Early Risk Prediction of ICU Readmission (≤ 48h) on MIMIC-III
+# Machine Learning-Based Early Risk Prediction of 48-Hour ICU Readmissions Using the MIMIC-III Database
 
 This repository contains code and experiments for predicting ICU readmissions within 48 hours using the MIMIC-III clinical database.  
 The project explores machine learning models for early risk identification, aiming to improve decision support in critical care.
