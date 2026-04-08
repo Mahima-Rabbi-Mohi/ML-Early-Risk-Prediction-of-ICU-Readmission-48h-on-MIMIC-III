@@ -1,7 +1,19 @@
 # Machine Learning-Based Early Risk Prediction of 48-Hour ICU Readmissions Using the MIMIC-III Database
 
+## Objective
 This repository contains code and experiments for predicting ICU readmissions within 48 hours using the MIMIC-III clinical database.  
 The project explores machine learning models for early risk identification, aiming to improve decision support in critical care.
+
+## Contribution
+
+- Extracted and cleaned structured patient/admission data
+- Engineered readmission label within 48 hours
+- Trained baseline and tree-based models
+- Compared performance using AUROC, precision, recall, and F1
+- Analyzed feature importance/error patterns
+
+## Workflow
+ MIMIC tables → cleaning → label creation → feature engineering → train/test split → models → evaluation
 
 ## Contents
 - `MSc_MIMICIII_ICU_Readmission_48h_Colab.ipynb`: Base notebook with preprocessing, feature engineering, and model training.
@@ -12,12 +24,6 @@ The project explores machine learning models for early risk identification, aimi
 - **MIMIC-III v1.4**: A freely accessible critical care database from MIT (requires credentialed access).  
 - Due to data restrictions, raw data is not included.  
 - Access MIMIC-III: https://physionet.org/content/mimiciii/1.4/
-
-## Methods
-- Data extraction & preprocessing of admissions, patients, and ICU stays.
-- Feature selection and cleaning.
-- Machine learning models (e.g., Logistic Regression, Random Forest, XGBoost).
-- Evaluation with metrics such as AUROC, precision, recall, and F1-score.
 
 ## Installation
 Clone repo and install dependencies:
